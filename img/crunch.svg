@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560"><defs><radialGradient id="b" cx=".5" cy=".45" r=".75"><stop offset="0" stop-color="#ff7a1a"/><stop offset=".5" stop-color="#b3122e"/><stop offset="1" stop-color="#1a0410"/></radialGradient></defs>
-<rect width="1000" height="560" fill="url(#b)"/>
-<g stroke="#ffd23f" stroke-width="6" opacity=".25"><line x1="500" y1="250" x2="80" y2="40"/><line x1="500" y1="250" x2="940" y2="60"/><line x1="500" y1="250" x2="60" y2="520"/><line x1="500" y1="250" x2="960" y2="510"/><line x1="500" y1="250" x2="500" y2="0"/></g>
-<circle cx="500" cy="235" r="135" fill="#1a0410" stroke="#ffd23f" stroke-width="14"/><circle cx="500" cy="235" r="112" fill="#fff4dc"/>
-<rect x="470" y="78" width="60" height="26" rx="6" fill="#ffd23f"/><rect x="490" y="62" width="20" height="20" fill="#ffd23f"/>
-<line x1="500" y1="235" x2="500" y2="150" stroke="#1a0410" stroke-width="10" stroke-linecap="round"/><line x1="500" y1="235" x2="565" y2="265" stroke="#e0213b" stroke-width="8" stroke-linecap="round"/><circle cx="500" cy="235" r="11" fill="#1a0410"/>
-<text x="500" y="460" text-anchor="middle" font-family="Impact,Arial Black,sans-serif" font-size="92" letter-spacing="6" fill="#ffd23f" stroke="#1a0410" stroke-width="4">CRUNCH TIME</text>
-<text x="500" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="20" letter-spacing="8" fill="#fff">BEAT THE CLOCK · VR</text></svg>
