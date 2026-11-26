@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TS Gamez Studio – VR &amp; Indie Game Developer</title>
+<meta name="description" content="TS Gamez Studio creates immersive VR games for Meta Quest – Skyline Assassin, Vesper Bay, Rift Breach Survival, Crunch Time, Fix It Or Fry It – and builds custom VR games for clients.">
+<meta property="og:title" content="TS Gamez Studio"><meta property="og:image" content="img/hitman.jpg">
+<link rel="icon" href="favicon.png"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas><div class="glow g1"></div><div class="glow g2"></div>
+
+<header><nav>
+  <a class="logo" href="#top"><img src="img/logo.png" alt="TS Gamez logo"></a>
+  <button class="burger" aria-label="Menu">☰</button>
+  <div class="menu"><a href="#games">Games</a><a href="#vr">VR for Clients</a><a href="#about">Studio</a><a href="privacy.html">Privacy</a><a class="btn" href="#contact">Contact</a></div>
+</nav></header>
+
+<div class="hero" id="top">
+  <div class="slides"></div>
+  <div>
+    <img class="hero-logo" src="img/logo.png" alt="TS Gamez Studio">
+    <div class="eyebrow">VR GAME STUDIO · META QUEST</div>
+    <h1>We Build Worlds<br>You Can <span class="grad">Step Into</span></h1>
+    <p>TS Gamez Studio crafts immersive VR and indie games – and develops custom VR experiences for clients worldwide.</p>
+    <div class="cta"><a class="btn" href="#games">Explore Our Games</a><a class="btn ghost" href="#vr">Hire Us for VR</a></div>
+    <div class="stats">
+      <div><b data-n="4">0</b><span>VR Games on Meta Quest</span></div>
+      <div><b data-n="5">0</b><span>Titles Developed</span></div>
+      <div><b data-n="100" data-s="%">0</b><span>Unity Powered</span></div>
+    </div>
+  </div>
+  <div class="scroll"></div>
+</div>
+
+<section id="games">
+  <div class="head reveal"><span class="badge">OUR GAMES</span><h2>Play Our <span class="grad">Latest Titles</span></h2><p>Action, survival, open-world crime and party chaos – built for virtual reality.</p></div>
+  <div id="gamelist"></div>
+</section>
+
+<section id="vr">
+  <div class="vr reveal">
+    <div>
+      <span class="badge">VR FOR CLIENTS</span>
+      <h2>Your VR Game, <span class="grad">Built by Us</span></h2>
+      <p>Besides our own titles, we develop VR games and experiences for clients – from first concept to a polished, store-ready build on Meta Quest and PC VR.</p>
+      <div class="feat">
+        <div><b>🎮</b>Custom VR games</div>
+        <div><b>🏢</b>Training &amp; marketing VR</div>
+        <div><b>✋</b>Interactions &amp; hand tracking</div>
+        <div><b>⚡</b>Quest performance optimization</div>
+      </div>
+      <a class="btn" href="#contact">Start Your VR Project</a>
+    </div>
+    <div class="vr-img"><img src="img/fixit2.jpg" alt="VR game developed by TS Gamez Studio"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="head reveal"><span class="badge">THE STUDIO</span><h2>Why <span class="grad">TS Gamez</span></h2><p>An independent studio obsessed with fun, polish and performance.</p></div>
+  <div class="about">
+    <div class="reveal"><i>🥽</i><h3>VR Specialists</h3><p>Multiple titles published on the Meta Quest store, built for comfort and immersion.</p></div>
+    <div class="reveal"><i>🛠️</i><h3>Full Production</h3><p>Design, programming, art integration, VFX, audio and QA – all under one roof.</p></div>
+    <div class="reveal"><i>🚀</i><h3>Fast Delivery</h3><p>Rapid prototyping and clear milestones, from idea to store launch.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <div class="side reveal"><span class="badge">CONTACT</span><h2 style="font-size:clamp(1.8rem,4vw,2.6rem)">Let's <span class="grad">Talk</span></h2>
+      <p>Have a question about our games, a partnership idea or a VR project you want built? Send us a message and we'll get back to you soon.</p>
+      <p>📧 <a href="mailto:hassan@titanzgame.com">hassan@titanzgame.com</a></p></div>
+    <form class="reveal" action="https://formsubmit.co/hassan@titanzgame.com" method="POST">
+      <input type="hidden" name="_subject" value="New message from TS Gamez website">
+      <input type="hidden" name="_captcha" value="false"><input type="text" name="_honey" style="display:none">
+      <div class="row"><input name="name" placeholder="Your name" required><input type="email" name="email" placeholder="Your email" required></div>
+      <select name="topic"><option>VR game for my company</option><option>General question</option><option>Business / partnership</option><option>Game support</option></select>
+      <textarea name="message" rows="6" placeholder="Tell us about your project or question" required></textarea>
+      <button class="btn" type="submit">Send Message →</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <a class="logo" href="#top"><img src="img/logo.png" alt="TS Gamez" style="height:90px"></a>
+  <p><a href="#games">Games</a><a href="#vr">VR for Clients</a><a href="#contact">Contact</a><a href="privacy.html">Privacy Policy</a></p>
+  <p>© 2026 TS Gamez Studio. All rights reserved.</p>
+</footer>
+<script src="games.js"></script>
+</body>
+</html>
